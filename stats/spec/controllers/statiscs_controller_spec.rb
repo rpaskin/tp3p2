@@ -9,7 +9,11 @@ describe StatiscsController do
     expect(@stats.label).to eq("ilanguel")
     expect(@stats.sequence).to eq("10,-1,5")
     expect(@stats.author).to eq("ronnie")
+  end
 
+  it 'destruir registro' do
+    @stats.destroy
+    expect(Statisc.find_by(label: "ilanguel")).to eq (nil)
   end
 
 end
