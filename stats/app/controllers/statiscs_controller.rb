@@ -69,6 +69,6 @@ class StatiscsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def statisc_params
-      params.require(:statisc).permit(:id, :label, :sequence, :author)
+      params.require(:statisc).permit(:label, :sequence, :author)
     end
 end
