@@ -16,7 +16,7 @@ Tec Prog 3 Prova 2
 - [ ] Adicionalmente, o modelo deve ter os seguintes campos a serem calculados automáticamente (0,5pt)
  - [ ] max, int
  - [ ] min, int
- - [ ] average, int
+ - [ ] average, float
  - [ ] sum, int
  - [ ] lastName, string
 - [ ] Na view de listagem dos registros, cada entrada deve mostrar os campos acima preenchidos corretamente com:
