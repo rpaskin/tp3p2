@@ -1,0 +1,31 @@
+<h1>Listing statiscs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Label</th>
+      <th>Sequence</th>
+      <th>Author</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @statiscs.each do |statisc| %>
+      <tr>
+        <td><%= statisc.id %></td>
+        <td><%= statisc.label %></td>
+        <td><%= statisc.sequence %></td>
+        <td><%= statisc.author %></td>
+        <td><%= link_to 'Show', statisc %></td>
+        <td><%= link_to 'Edit', edit_statisc_path(statisc) %></td>
+        <td><%= link_to 'Destroy', statisc, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Statisc', new_statisc_path %>
