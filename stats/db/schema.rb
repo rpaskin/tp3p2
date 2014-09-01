@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140825192832) do
+ActiveRecord::Schema.define(version: 20140901194732) do
 
   create_table "entries", force: true do |t|
     t.string   "label"
@@ -19,6 +19,11 @@ ActiveRecord::Schema.define(version: 20140825192832) do
     t.string   "author"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "max"
+    t.integer  "min"
+    t.float    "average"
+    t.integer  "sum"
+    t.string   "lastName"
   end
 
 end

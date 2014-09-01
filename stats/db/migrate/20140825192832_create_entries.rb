@@ -5,6 +5,7 @@ class CreateEntries < ActiveRecord::Migration
       t.string :sequence
       t.string :author
 
+
       t.timestamps
     end
   end
