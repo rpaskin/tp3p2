@@ -3,17 +3,6 @@ class StatiscsController < ApplicationController
 
   # GET /statiscs
   # GET /statiscs.json
-  def initialize()
-    super
-    puts self.inspect
-    self.max = self.sequence.split.max
-    # @max = sequence.split.max
-    # @min = sequence.split.min
-    # @sum = sequence.split.collect{|i| i.to_i}.sum
-    # @avg = sum/sequence.split.size
-    # @lastName = author.split.last
-    # @statisc = Statisc.new(label, sequence)
-  end
 
   def index
     @statiscs = Statisc.all
@@ -27,9 +16,6 @@ class StatiscsController < ApplicationController
   # GET /statiscs/new
   def new
     @statisc = Statisc.new
-    super
-    puts @statiscs.inspect
-    @statiscs.max = @statiscs.sequence.split.max
   end
 
   # GET /statiscs/1/edit
