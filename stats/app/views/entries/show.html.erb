@@ -15,5 +15,30 @@
   <%= @entry.author %>
 </p>
 
+<p>
+  <strong>Max Value:</strong>
+  <%= @entry.max %>
+</p>
+
+<p>
+  <strong>Min Value:</strong>
+  <%= @entry.min %>
+</p>
+
+<p>
+  <strong>Sum Value:</strong>
+  <%= @entry.sum %>
+</p>
+
+<p>
+  <strong>Average:</strong>
+  <%= @entry.average %>
+</p>
+
+<p>
+  <strong>Last Name:</strong>
+  <%= @entry.lastName.upcase %>
+</p>
+
 <%= link_to 'Edit', edit_entry_path(@entry) %> |
 <%= link_to 'Back', entries_path %>
