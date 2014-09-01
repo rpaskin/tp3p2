@@ -25,6 +25,6 @@ Tec Prog 3 Prova 2
  - [ ] O valor médio da sequência (0,5pt)
  - [ ] O sobrenome do autor em letras maiúsculas (0,5pt)
 - [ ] Faça testes dos métodos que implementam cada aspecto acima (2pts)
-- [ ] A cada ponto acima, fazer um commit no GIT com um comentário que inclua o número da questão (1pt)
+- [ ] Se possível a cada ponto acima, fazer um commit no GIT com um comentário que inclua o número da questão
 * Cuidado! Um hacker pode te invadir! Faça commits, pushes e mantenha o repositório remoto atualizado com a maior frequência possível, você vai ter que lidar com quaisquer problemas que possam surgir! (0,5pt)
 
