@@ -7,8 +7,8 @@ describe StatiscsController do
 
   it 'Verificar atributos' do
     expect(@stats.label).to eq("ilanguel")
-    expect(@stats.sequence).to eq("10,-1,5")
-    expect(@stats.author).to eq("ronnie")
+    expect(@stats.sequence).to eq("10 -1 5")
+    expect(@stats.author).to eq("ronnie Paskin")
   end
 
   it 'destruir registro' do
