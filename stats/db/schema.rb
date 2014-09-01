@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140825193126) do
+ActiveRecord::Schema.define(version: 20140901193418) do
 
   create_table "statiscs", force: true do |t|
     t.string   "label"
@@ -19,6 +19,11 @@ ActiveRecord::Schema.define(version: 20140825193126) do
     t.string   "author"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "max"
+    t.integer  "min"
+    t.integer  "sum"
+    t.integer  "avg"
+    t.string   "lastName"
   end
 
 end
