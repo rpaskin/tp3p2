@@ -1,5 +1,5 @@
 class Statisc < ActiveRecord::Base
-
+#DEZ MULEKKKKKKK
   after_initialize do
     self.max = self.sequence.split.collect{|i| i.to_i}.max
     self.min = self.sequence.split.collect{|i| i.to_i}.min
