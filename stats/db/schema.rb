@@ -26,4 +26,17 @@ ActiveRecord::Schema.define(version: 20140901194732) do
     t.string   "lastName"
   end
 
+  create_table "statiscs", force: true do |t|
+    t.string   "label"
+    t.string   "sequence"
+    t.string   "author"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "max"
+    t.integer  "min"
+    t.integer  "sum"
+    t.integer  "avg"
+    t.string   "lastName"
+  end
+
 end
